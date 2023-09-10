@@ -1,0 +1,11 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Taskmanagement.Infrastructure
+build_property.ProjectDir = E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Infrastructure\Taskmanagement.Infrastructure\

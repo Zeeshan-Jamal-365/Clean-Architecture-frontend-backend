@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Taskmanagement.Frontend.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    int idno = 1;
+}
+
+<h1>Index</h1>
+
+<p class="text-center">
+    <a class="btn btn-primary" asp-action="AddorEdit"><i class="fa-solid fa-plus"></i> Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductModel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer.CustomerName)
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @idno
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductModel)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Customer.CustomerName)
+                </td>
+                <td>
+                    <a href="Product/AddorEdit/@item.Id" class="btn btn-success">Edit</a>
+                    <a class="delete-button btn btn-danger" href="Product/Delete/@item.Id" onclick="return confirm('Are you sure you want to delete this item?');"><i class="fa-solid fa-trash"></i> Delete</a>
+
+                </td>
+            </tr>
+            idno++;
+        }
+    </tbody>
+</table>

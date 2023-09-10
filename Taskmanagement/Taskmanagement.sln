@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3C5A0A2B-6795-4B68-9163-7EC02E42C44C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B52F2262-A582-4692-9A73-5658933B29E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{E97D332C-8B70-4B3A-A9F1-69AE88D60130}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{3F70AA72-354C-49BD-A4A0-1E953E59BBC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{8251E21E-BD6B-40DC-8A21-685DBFA1EDE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{35F7795A-FF75-4CF6-BA81-5F40BBF657B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taskmanagement.Model", "E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Model\Taskmanagement.Model.csproj", "{204B0189-AC92-4AA7-BAE3-F23BE6C297AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taskmanagement.Shared", "E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Shared\Taskmanagement.Shared.csproj", "{7E7E356B-29B8-486C-80BD-79A34095E2AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taskmanagement.Repositories", "E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Repositories\Taskmanagement.Repositories.csproj", "{D1937FC4-81F1-415D-873D-8C8C44307C7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taskmanagement.Core", "E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Infrastructure\Taskmanagement.Core\Taskmanagement.Core.csproj", "{61E8EC84-83E0-4477-82DA-AF0253C3FB09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taskmanagement.IoC.Configuration", "E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Infrastructure\Taskmanagement.IoC.Configuration\Taskmanagement.IoC.Configuration.csproj", "{6D1DF757-D967-4BF2-AF40-7F93EF697266}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taskmanagement.Infrastructure", "E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Infrastructure\Taskmanagement.Infrastructure\Taskmanagement.Infrastructure.csproj", "{27C534D2-FEC3-45B6-A413-3945576C5132}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taskmanagement.Services.Model", "E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Infrastructure\Taskmanagement.Services.Model\Taskmanagement.Services.Model.csproj", "{801B38CF-7033-4F50-8D61-BC69D8C40BA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taskmanagement.Backend", "src\App\Taskmanagement.Backend\Taskmanagement.Backend.csproj", "{6E937563-79EA-4283-BBFE-D55900F4DCC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taskmanagement.Frontend", "src\App\Taskmanagement.Frontend\Taskmanagement.Frontend.csproj", "{F0FE287F-5D70-4494-B53C-DF2B0B7AB3A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{204B0189-AC92-4AA7-BAE3-F23BE6C297AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204B0189-AC92-4AA7-BAE3-F23BE6C297AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204B0189-AC92-4AA7-BAE3-F23BE6C297AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204B0189-AC92-4AA7-BAE3-F23BE6C297AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7E356B-29B8-486C-80BD-79A34095E2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7E356B-29B8-486C-80BD-79A34095E2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7E356B-29B8-486C-80BD-79A34095E2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7E356B-29B8-486C-80BD-79A34095E2AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1937FC4-81F1-415D-873D-8C8C44307C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1937FC4-81F1-415D-873D-8C8C44307C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1937FC4-81F1-415D-873D-8C8C44307C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1937FC4-81F1-415D-873D-8C8C44307C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E8EC84-83E0-4477-82DA-AF0253C3FB09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E8EC84-83E0-4477-82DA-AF0253C3FB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E8EC84-83E0-4477-82DA-AF0253C3FB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E8EC84-83E0-4477-82DA-AF0253C3FB09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1DF757-D967-4BF2-AF40-7F93EF697266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1DF757-D967-4BF2-AF40-7F93EF697266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1DF757-D967-4BF2-AF40-7F93EF697266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1DF757-D967-4BF2-AF40-7F93EF697266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C534D2-FEC3-45B6-A413-3945576C5132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C534D2-FEC3-45B6-A413-3945576C5132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C534D2-FEC3-45B6-A413-3945576C5132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C534D2-FEC3-45B6-A413-3945576C5132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{801B38CF-7033-4F50-8D61-BC69D8C40BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{801B38CF-7033-4F50-8D61-BC69D8C40BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{801B38CF-7033-4F50-8D61-BC69D8C40BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{801B38CF-7033-4F50-8D61-BC69D8C40BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E937563-79EA-4283-BBFE-D55900F4DCC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E937563-79EA-4283-BBFE-D55900F4DCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E937563-79EA-4283-BBFE-D55900F4DCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E937563-79EA-4283-BBFE-D55900F4DCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0FE287F-5D70-4494-B53C-DF2B0B7AB3A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0FE287F-5D70-4494-B53C-DF2B0B7AB3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0FE287F-5D70-4494-B53C-DF2B0B7AB3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0FE287F-5D70-4494-B53C-DF2B0B7AB3A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E97D332C-8B70-4B3A-A9F1-69AE88D60130} = {3C5A0A2B-6795-4B68-9163-7EC02E42C44C}
+		{3F70AA72-354C-49BD-A4A0-1E953E59BBC9} = {3C5A0A2B-6795-4B68-9163-7EC02E42C44C}
+		{8251E21E-BD6B-40DC-8A21-685DBFA1EDE6} = {3F70AA72-354C-49BD-A4A0-1E953E59BBC9}
+		{35F7795A-FF75-4CF6-BA81-5F40BBF657B0} = {3F70AA72-354C-49BD-A4A0-1E953E59BBC9}
+		{204B0189-AC92-4AA7-BAE3-F23BE6C297AF} = {8251E21E-BD6B-40DC-8A21-685DBFA1EDE6}
+		{7E7E356B-29B8-486C-80BD-79A34095E2AD} = {8251E21E-BD6B-40DC-8A21-685DBFA1EDE6}
+		{D1937FC4-81F1-415D-873D-8C8C44307C7E} = {8251E21E-BD6B-40DC-8A21-685DBFA1EDE6}
+		{61E8EC84-83E0-4477-82DA-AF0253C3FB09} = {35F7795A-FF75-4CF6-BA81-5F40BBF657B0}
+		{6D1DF757-D967-4BF2-AF40-7F93EF697266} = {35F7795A-FF75-4CF6-BA81-5F40BBF657B0}
+		{27C534D2-FEC3-45B6-A413-3945576C5132} = {35F7795A-FF75-4CF6-BA81-5F40BBF657B0}
+		{801B38CF-7033-4F50-8D61-BC69D8C40BA9} = {35F7795A-FF75-4CF6-BA81-5F40BBF657B0}
+		{6E937563-79EA-4283-BBFE-D55900F4DCC4} = {E97D332C-8B70-4B3A-A9F1-69AE88D60130}
+		{F0FE287F-5D70-4494-B53C-DF2B0B7AB3A1} = {E97D332C-8B70-4B3A-A9F1-69AE88D60130}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F9559A4-D552-4380-821A-A4B7CFF4002C}
+	EndGlobalSection
+EndGlobal

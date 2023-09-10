@@ -1,0 +1,496 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.IoC.Configuration\\Taskmanagement.IoC.Configuration.csproj": {}
+  },
+  "projects": {
+    "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Model\\Taskmanagement.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Model\\Taskmanagement.Model.csproj",
+        "projectName": "Taskmanagement.Model",
+        "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Model\\Taskmanagement.Model.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Shared\\Taskmanagement.Shared.csproj": {
+                "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Shared\\Taskmanagement.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Repositories\\Taskmanagement.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Repositories\\Taskmanagement.Repositories.csproj",
+        "projectName": "Taskmanagement.Repositories",
+        "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Repositories\\Taskmanagement.Repositories.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Model\\Taskmanagement.Model.csproj": {
+                "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Model\\Taskmanagement.Model.csproj"
+              },
+              "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Shared\\Taskmanagement.Shared.csproj": {
+                "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Shared\\Taskmanagement.Shared.csproj"
+              },
+              "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Infrastructure\\Taskmanagement.Infrastructure.csproj": {
+                "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Infrastructure\\Taskmanagement.Infrastructure.csproj"
+              },
+              "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Services.Model\\Taskmanagement.Services.Model.csproj": {
+                "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Services.Model\\Taskmanagement.Services.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Shared\\Taskmanagement.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Shared\\Taskmanagement.Shared.csproj",
+        "projectName": "Taskmanagement.Shared",
+        "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Shared\\Taskmanagement.Shared.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Core\\Taskmanagement.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Core\\Taskmanagement.Core.csproj",
+        "projectName": "Taskmanagement.Core",
+        "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Core\\Taskmanagement.Core.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Model\\Taskmanagement.Model.csproj": {
+                "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Model\\Taskmanagement.Model.csproj"
+              },
+              "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Repositories\\Taskmanagement.Repositories.csproj": {
+                "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Repositories\\Taskmanagement.Repositories.csproj"
+              },
+              "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Services.Model\\Taskmanagement.Services.Model.csproj": {
+                "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Services.Model\\Taskmanagement.Services.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Infrastructure\\Taskmanagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Infrastructure\\Taskmanagement.Infrastructure.csproj",
+        "projectName": "Taskmanagement.Infrastructure",
+        "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Infrastructure\\Taskmanagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Model\\Taskmanagement.Model.csproj": {
+                "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Model\\Taskmanagement.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.IoC.Configuration\\Taskmanagement.IoC.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.IoC.Configuration\\Taskmanagement.IoC.Configuration.csproj",
+        "projectName": "Taskmanagement.IoC.Configuration",
+        "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.IoC.Configuration\\Taskmanagement.IoC.Configuration.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.IoC.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Repositories\\Taskmanagement.Repositories.csproj": {
+                "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Repositories\\Taskmanagement.Repositories.csproj"
+              },
+              "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Core\\Taskmanagement.Core.csproj": {
+                "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Core\\Taskmanagement.Core.csproj"
+              },
+              "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Infrastructure\\Taskmanagement.Infrastructure.csproj": {
+                "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Infrastructure\\Taskmanagement.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Services.Model\\Taskmanagement.Services.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Services.Model\\Taskmanagement.Services.Model.csproj",
+        "projectName": "Taskmanagement.Services.Model",
+        "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Services.Model\\Taskmanagement.Services.Model.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Infrastructure\\Taskmanagement.Services.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Shared\\Taskmanagement.Shared.csproj": {
+                "projectPath": "E:\\16th Semester\\dotnet_projects\\clean-architecture\\repos\\Taskmanagement-3\\Taskmanagement\\src\\Libraries\\Domain\\Taskmanagement.Shared\\Taskmanagement.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

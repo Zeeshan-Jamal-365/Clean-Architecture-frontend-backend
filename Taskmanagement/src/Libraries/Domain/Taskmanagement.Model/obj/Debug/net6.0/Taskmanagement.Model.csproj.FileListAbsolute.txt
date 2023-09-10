@@ -1,0 +1,15 @@
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Model\bin\Debug\net6.0\Taskmanagement.Model.deps.json
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Model\bin\Debug\net6.0\Taskmanagement.Model.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Model\bin\Debug\net6.0\Taskmanagement.Model.pdb
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Model\obj\Debug\net6.0\Taskmanagement.Model.csproj.AssemblyReference.cache
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Model\obj\Debug\net6.0\Taskmanagement.Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Model\obj\Debug\net6.0\Taskmanagement.Model.AssemblyInfoInputs.cache
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Model\obj\Debug\net6.0\Taskmanagement.Model.AssemblyInfo.cs
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Model\obj\Debug\net6.0\Taskmanagement.Model.csproj.CoreCompileInputs.cache
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Model\obj\Debug\net6.0\Taskmanagement.Model.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Model\obj\Debug\net6.0\refint\Taskmanagement.Model.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Model\obj\Debug\net6.0\Taskmanagement.Model.pdb
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Model\obj\Debug\net6.0\ref\Taskmanagement.Model.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Model\bin\Debug\net6.0\Taskmanagement.Shared.dll
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Model\bin\Debug\net6.0\Taskmanagement.Shared.pdb
+E:\16th Semester\dotnet_projects\clean-architecture\repos\Taskmanagement-3\Taskmanagement\src\Libraries\Domain\Taskmanagement.Model\obj\Debug\net6.0\Taskmanagement.Model.csproj.CopyComplete
